@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{ display: grid; min-height: 100vh; grid-template-rows: auto 1fr auto; }
+
+
+
+header a label{
+    color: red;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    left: 2em;
+    top:-1.5em;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+header a i{
+    font-size: 2rem;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    min-width: 350px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 4em;
+}
+
+/* CARDS */
+.card{
+    width: 210px;
+    height: auto;
+    margin: 15px;
+    padding: 0.7em;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    background-color: #fff;
+    font-family: 'Poppins',sans-serif;
+}
+.card h3{
+    margin: 0.5em 0em;
+}
+.card h4{
+    font-size: 0.875em;
+    margin: 0.5em 0em;
+    color: #888;
+    font-weight: normal;
+}
+
+.card .button{
+    width: 100%;
+    border: none;
+    padding: 0.7em;
+    background-color: #695CFE;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+    margin: 0.5em 0em;
+}
+
+.button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 1.25px 1.25px 10px rgba(0,0,0,0.5);
+}
+
+.card img{
+    width: 100%;
+}
+
+.info{
+    font-family: 'Poppins',sans-serif;
+}
+
+.bg-darkGrey{
+    background-color: #0F0E0E;
+}
+
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256, 256, 256, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#checkout{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#checkout:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.delete-button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.delete-button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.imgCarrito{
+    height: 4rem;
+    width: 3rem;
+}

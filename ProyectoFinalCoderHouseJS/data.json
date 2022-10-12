@@ -1,0 +1,44 @@
+[
+    {
+      "id":123,
+      "name":"REMERA GRIS ESSENTIALS",
+      "price":15000,
+      "description":"remeras",
+      "image":"./img/Remera.jpg"
+    },
+    {
+      "id":456,
+      "name":"BUZO GRIS ESSENTIALS",
+      "price":20000,
+      "description":"buzos",
+      "image":"img/Buzo.jpg"
+    },
+    {
+      "id":789,
+      "name":"PANTALON GRIS ESSENTIALS",
+      "price":19000,
+      "description":"pantalones",
+      "image":"img/Pantalon.jpg"
+    },
+    {
+      "id":78910,
+      "name":"PILUSO BEIGE ESSENTIALS",
+      "price":10000,
+      "description":"pilusos",
+      "image":"img/PilusoBeige.jpg"
+    },
+    {
+      "id":78911,
+      "name":"BUZO BEIGE ESSENTIALS",
+      "price":22000,
+      "description":"buzos",
+      "image":"img/BuzoBeige.jpg"
+    },
+    {
+      "id":78912,
+      "name":"PANTALON BEIGE ESSENTIALS",
+      "price":20000,
+      "description":"pantalones",
+      "image":"img/PantalonBeige.jpg"
+    }
+]
